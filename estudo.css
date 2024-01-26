@@ -207,10 +207,6 @@ body{
     margin-top: 5%;
     font-size: 25px;
 }
-.img2{
-    width: 100px;
-    margin-right: 2%;
-}
 .backfo{
     display: flex;
     flex-direction: row;
@@ -219,9 +215,17 @@ body{
 .creditos{
     text-decoration: none;
 }
+.img2{
+    width: 100px;
+}
+.ifs{
+    display: flex;
+    padding-right: 3%;
+    justify-content: center;
+}
 @media screen and (max-width: 1195px){
     .imgcabe{
-        width: 25%;
+        width: 19%;
         height: 10%;
     } 
     .principal{
